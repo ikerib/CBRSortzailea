@@ -1,0 +1,24 @@
+{
+    "name": "ikerib/cbr-sortzailea",
+    "description": "A simple tool to create CBR files",
+    "require": {
+        "symfony/console": "~2.3",
+        "symfony/process": "~2.3",
+        "symfony/dependency-injection": "~2.3",
+        "symfony/config": "~2.3",
+        "symfony/finder": "~2.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~3.7.17"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Iker Ibarguren",
+            "email": "ikerib@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-0":{ "ikerib\\CBRSortzailea": "src/" }
+    }
+}
