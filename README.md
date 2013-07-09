@@ -10,4 +10,12 @@ Symfony framework-ak eskeintzen digun Kontsola aplikazioen garapenerako aukera e
 - cd /Users/XXXX
 - git clone
 - cd CBRSortzailea
-- chmod +x bin/cbrsortzailea.php
+- chmod +x bin/cbrsortzailea
+
+### Phar fitxategia sortzeko
+- bin/cbrsortzailea compile
+
+### Globalki exekutatzeko
+- sudo mv cbrsortzailea.phar /usr/bin/cbrsortzailea
+
+
